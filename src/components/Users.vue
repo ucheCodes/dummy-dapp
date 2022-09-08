@@ -6,7 +6,7 @@
     const dummyStore = useDummyStore();
     const {arrayOfMessages, arrayOfUserFunds, arrayOfUsers, arrayStrings, collection, user,
         privateKey, mnemonic, walletAddress
-    } = storeToRefs(dummyStore);
+    } = storeToRefs(dummyStore);//stored to ref from pinia
 </script>
 
 <template>
